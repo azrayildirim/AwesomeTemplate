@@ -1,8 +1,25 @@
-.navbar
-{
-    background: #085E7D !important;
+.navbar {
+  background: #085e7d !important;
 }
-.bg-dark
-{
-    background: #085E7D !important;
+.bg-dark {
+  background: #085e7d !important;
+}
+.card-img-top {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+@media (min-width: 768) {
+  .card-img-top {
+    height: 32vh;
+  }
+}
+.card-title {
+  margin-left: 5%;
+  text-align: center;
+  justify-content: center;
+}
+.card-text {
+  margin-left: 5%;
+  justify-content: center;
 }
